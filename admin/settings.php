@@ -379,14 +379,14 @@ else if (@$_POST['action'] == 'ON') {
               
               <h3 class="text-blue">Charges Settings</h3>
               <div class="box-body">
-                <div class="form-group col-md-4">
-                  <label for="name">Safety & Hygiene Charges <span class="text-red">*</span></label>
-                  <input type="text" class="form-control" name="text1" value="<?= @$get_text1; ?>" autocomplete="off" placeholder="App Safety & Hygiene Charges" >
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="name">Conveyance Charges <span class="text-red">*</span></label>
-                  <input type="text" class="form-control" name="text2" value="<?= @$get_text2; ?>" autocomplete="off" placeholder="Conveyance Charges" >
-                </div>
+                <!-- <div class="form-group col-md-4"> -->
+                  <!-- <label for="name">Safety & Hygiene Charges <span class="text-red">*</span></label> -->
+                  <!-- <input type="text" class="form-control" name="text1" value="<?= @$get_text1; ?>" autocomplete="off" placeholder="App Safety & Hygiene Charges" > -->
+                <!-- </div> -->
+                <!-- <div class="form-group col-md-4"> -->
+                  <!-- <label for="name">Conveyance Charges <span class="text-red">*</span></label> -->
+                  <!-- <input type="text" class="form-control" name="text2" value="<?= @$get_text2; ?>" autocomplete="off" placeholder="Conveyance Charges" > -->
+                <!-- </div> -->
                 <div class="form-group col-md-4">
                   <label for="name">Minimum Wallet Amount <span class="text-red">*</span></label>
                   <input type="text" class="form-control" name="text12" value="<?= @$get_text12; ?>" autocomplete="off" placeholder="Minimum Wallet Amount" >
